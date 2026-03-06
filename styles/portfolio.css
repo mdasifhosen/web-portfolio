@@ -16,6 +16,9 @@
 .dark-2{
     color: #474747;
 }
+.dark-3{
+    color: #757575;
+}
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -26,7 +29,11 @@
     border: none;
 }
 /* nav styles */
-
+header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
 nav{
     display: flex;
     align-items: center;
@@ -51,4 +58,31 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-weight:600;
+    font-size: 45px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 18px;
+}
+
+.banner-profile-pic{
+    width: 580px;
 }
