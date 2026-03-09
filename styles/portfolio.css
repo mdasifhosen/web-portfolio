@@ -260,6 +260,34 @@ footer [type="text"] ,[type="email"],textarea{
     .about-items{
         flex-direction: column;
     }
+
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav > ul{
+        gap: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    ul .btn-primary{
+        
+        font-size: 15px;
+        padding: 10px;
+    }
     
     
 }
